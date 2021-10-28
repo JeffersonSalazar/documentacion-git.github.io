@@ -16,6 +16,10 @@
         <div class="box_logo">
             <img src="./assets/images/angular.png" alt="angular">
         </div>
+
+        <div class="box_icon_menu" id="icon_menu">
+            <span class="line_icon_menu"></span>
+        </div>
     </header>
 
 
@@ -23,7 +27,7 @@
     <main>
 
         <!-- MENU -->
-        <nav>
+        <nav id="menu_nav">
             <ul>
                 <li><a href="subirgit.html" target="_blank">01. Git y github</a></li>
                 <li><a href="gitpages.html" target="_blank">03. Github pages</a></li>
@@ -43,60 +47,51 @@
                     <div class="line_titles"></div>
 
                     <p>
-                        En este apartado aprenderemos a subir nuestra pagina a
-                        <strong>githubPages</strong> cabe resaltar que ya debes
-                        tener tu proyecto guardado en un repostorio de
-                        <strong>git</strong> y subido a <strong>github</strong>
+                        En este apartado aprenderemos a crear y conocer ramas a
+                        cambiar entre ellas y como eliminar una, tambien aprenderemos
+                        a fucionar (unir) los cambios entre ramas haciendo uso de
+                        <a href="#mer" target="_blank">merge</a>
                     </p>
                 </section>
 
-                <!-- 01 index.html archivo obligatorio -->
+                <!-- 01 git branch -->
                 <section class="sect_content">
-                    <h4>01. Index.html archivo obligatorio</h4>
+                    <h4>01. Git branch: Conocer las ramas</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/gitpages/p01.png" alt="modulo">
+                        <img src="./assets/images/ramasmerge/r01.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 02. nombre del repositorio.github.io -->
+                <!-- 02. git branch "nombre nueva rama" -->
                 <section class="sect_content">
-                    <h4>02. Nombre del repositorio.github.io</h4>
+                    <h4>02. Git branch "nombre nueva rama": Crear rama</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/gitpages/p02.png" alt="modulo">
+                        <img src="./assets/images/ramasmerge/r02.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 03. creando la rama gh-pages -->
+                <!-- 03. git checkout "nombre de rama" -->
                 <section class="sect_content">
-                    <h4>03. Creando la rama gh-pages</h4>
+                    <h4>03. Git checkout "nombre de rama": Cambiar entre ramas</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/gitpages/p03.png" alt="modulo">
+                        <img src="./assets/images/ramasmerge/r03.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 04. ruta de github pages -->
+                <!-- 04. git branch -d -->
                 <section class="sect_content">
-                    <h4>04. Ruta de github pages</h4>
+                    <h4>04. Git branch -d "nombre de rama": Eliminar una rama</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/gitpages/p04.png" alt="modulo">
-                    </div>
-                </section>
-
-                <!-- 05. url del sitio web -->
-                <section class="sect_content">
-                    <h4>05. Url del sitio web</h4>
-
-                    <div class="box_img">
-                        <img src="./assets/images/gitpages/p05.png" alt="modulo">
+                        <img src="./assets/images/ramasmerge/r04.png" alt="modulo">
                     </div>
                 </section>
 
                 <div class="line_endsession">
-                    ------------------------------ End ------------------------------
+                    -------------------- End --------------------
                 </div>
 
                 <!-- 01. modificando el index.html -->
@@ -130,6 +125,8 @@
             </section>
         </div>
     </main>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

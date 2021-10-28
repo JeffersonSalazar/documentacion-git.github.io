@@ -35,22 +35,23 @@ header .box_logo img {
   height: 40px;
 }
 
-header .box_socials input {
-  color: #444;
-  outline: none;
-  border: none;
-  border-radius: 100px;
-  font-size: 1rem;
-  width: 180px;
-  max-width: 240px;
-  margin-left: 8px;
-  padding: 8px 16px;
-  -webkit-transition: width .3s ease;
-  transition: width .3s ease;
+header .box_icon_menu {
+  cursor: pointer;
 }
 
-header .box_socials input:focus {
-  width: 220px;
+header .box_icon_menu .line_icon_menu {
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
+}
+
+header .box_icon_menu .line_icon_menu::before {
+  content: '';
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
 }
 
 /*  
@@ -100,6 +101,21 @@ main nav {
       -ms-flex-align: center;
           align-items: center;
   width: 230px;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+@media (max-width: 599px) {
+  main nav {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+  }
+  main nav.open_menu {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
 }
 
 main nav ul li {
