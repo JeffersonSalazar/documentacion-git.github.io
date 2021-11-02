@@ -69,6 +69,9 @@ main {
   /* 
         CONTENIDO: 
     */
+  /* 
+        CONTENIDO DE LA SECCION 00. INDEX
+    */
 }
 
 @media (max-width: 999px) {
@@ -215,6 +218,65 @@ main .div_content .main_content .sect_content .box_img img {
 }
 
 main .div_content .main_content .line_endsession {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #CCC;
+  padding-bottom: 40px;
+}
+
+main .box_content_index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .box_content_index h2 {
+  color: #5c5b5b;
+  margin: 20px 0;
+}
+
+@media (max-width: 608px) {
+  main .box_content_index h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 609px) {
+  main .box_content_index h2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 999px) {
+  main .box_content_index .box_img img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1000px) {
+  main .box_content_index .box_img img {
+    width: 180px;
+  }
+}
+
+main .box_content_index p {
+  color: #5c5b5b;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+main .line_endindex {
   text-align: center;
   font-size: 1.2rem;
   color: #CCC;

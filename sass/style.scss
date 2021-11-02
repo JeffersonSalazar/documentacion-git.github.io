@@ -228,4 +228,57 @@ main {
             };
         };
     };
+
+    /* 
+        CONTENIDO DE LA SECCION 00. INDEX
+    */
+    .box_content_index {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // height: 250px;
+        // background-color: rebeccapurple;
+
+        h2 {
+            color: $colorFour;
+            margin: 20px 0;
+
+            @media (max-width: 608px) {
+                font-size: 2.8rem;
+            }
+
+             @media (min-width: 609px) {
+                font-size: 5rem;
+            }
+        }
+
+        .box_img {
+
+            img {
+
+                @media (max-width: 999px) {
+                    width: 120px;
+                }
+
+                @media (min-width: 1000px) {
+                    width: 180px;
+                }
+            }
+        }
+
+        p {
+            color: $colorFour;
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+    }
+
+    .line_endindex {
+        text-align: center;
+        font-size: 1.2rem;
+        color: $colorFive;
+        padding-bottom: 40px;
+    }
 };
