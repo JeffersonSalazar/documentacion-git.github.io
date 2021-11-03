@@ -74,15 +74,15 @@ main {
     */
 }
 
-@media (max-width: 607px) {
+@media (max-width: 624px) {
   main {
-    padding: 60px 10px 0;
+    padding: 60px 15px 0;
   }
 }
 
-@media (min-width: 608px) {
+@media (min-width: 625px) {
   main {
-    padding: 60px 20px 0;
+    padding: 60px 30px 0;
   }
 }
 
@@ -211,13 +211,13 @@ main .div_content .main_content .sect_content .box_img img {
           box-shadow: 0 0 12px 0 #00000066;
 }
 
-@media (max-width: 699px) {
+@media (max-width: 999px) {
   main .div_content .main_content .sect_content .box_img img {
     max-width: 100%;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   main .div_content .main_content .sect_content .box_img img {
     max-height: 400px;
   }
@@ -251,13 +251,19 @@ main .box_content_index h2 {
   margin: 20px 0;
 }
 
-@media (max-width: 608px) {
+@media (max-width: 624px) {
   main .box_content_index h2 {
     font-size: 2.8rem;
   }
 }
 
-@media (min-width: 609px) {
+@media (min-width: 625px) {
+  main .box_content_index h2 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (min-width: 1000px) {
   main .box_content_index h2 {
     font-size: 5rem;
   }
@@ -282,10 +288,20 @@ main .box_content_index p {
   margin: 20px 0;
 }
 
+main .box_content_index p strong {
+  color: #F64D27;
+}
+
 main .line_endindex {
   text-align: center;
   font-size: 1.2rem;
   color: #CCC;
   padding-bottom: 40px;
+}
+
+@media (min-width: 1000px) {
+  main .line_endindex {
+    margin-top: 60px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
