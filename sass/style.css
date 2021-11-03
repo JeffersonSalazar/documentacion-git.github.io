@@ -74,9 +74,15 @@ main {
     */
 }
 
-@media (max-width: 999px) {
+@media (max-width: 607px) {
   main {
     padding: 60px 10px 0;
+  }
+}
+
+@media (min-width: 608px) {
+  main {
+    padding: 60px 20px 0;
   }
 }
 
