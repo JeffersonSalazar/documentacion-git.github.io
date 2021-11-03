@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>08. Conflictos</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="box_header">
+        <div class="box_logo">
+            <img src="assets/images/github.png" alt="github">
+        </div>
+
+        <div class="box_icon_menu" id="icon_menu">
+            <span class="line_icon_menu"></span>
+        </div>
+    </header>
+
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav id="menu_nav">
+            <ul>
+                <li><a href="git-github.html" target="_blank">01. Git y Github</a></li>
+                <li><a href="git-branch.html" target="_blank">02. Git branch</a></li>
+                <li><a href="git-pages.html" target="_blank">03. Github pages</a></li>
+                <li><a href="git-commits.html" target="_blank">04. Git commits</a></li>
+                <li><a href="git-ignore.html" target="_blank">05. Git ignore</a></li>
+                <li><a href="git-clone.html" target="_blank">06. Git clone</a></li>
+                <li><a href="git-pull.html" target="_blank">07. Git pull</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- conflictos -->
+            <section class="main_content" id="modules">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>08. Conflictos</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        Estos <strong>conflictos</strong> suelen presentarse cuando
+                        queremos subir la version <strong>actual</strong> de nuestro
+                        proyecto en una version <strong>antigua</strong> o tambien
+                        cuando una misma linea es manipulada por varios desarrolladores.
+                    </p>
+                </section>
+
+                <!-- 01 diferente desarrollador en diferente rama -->
+                <section class="sect_content" id="git">
+                    <h4>01. Diferente desarrollador en diferente rama</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/conflictos/c01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. colombia sube cambios a rama master -->
+                <section class="sect_content">
+                    <h4>02. Colombia sube cambios a rama master</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/conflictos/c02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. holanda intenta subir cambios a rama master -->
+                <section class="sect_content">
+                    <h4>03. Holanda intenta subir cambios a rama master</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/conflictos/c03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. holanda debe hacer un pull para subir sus cambios -->
+                <section class="sect_content">
+                    <h4>04. Holanda debe hacer un pull para subir sus cambios</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/conflictos/c04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. Holanda finalmente sube sus cambios -->
+                <section class="sect_content">
+                    <h4>05. Holanda finalmente sube sus cambios</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/conflictos/c05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. cambios reflejados de ambos desarrolladores -->
+                <section class="sect_content">
+                    <h4>06. Cambios reflejados de ambos desarrolladores</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/conflictos/c06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- <div class="line_endsession">
+                    -------------------- End --------------------
+                </div> -->
+
+                <!-- 01. ingresando a github -->
+                <!-- <section class="sect_content" id="crea">
+                    <h4>01. Ingresando a github</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g06.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <!-- 02. abriendo panel de proyectos -->
+                <!-- <section class="sect_content">
+                    <h4>02. Abriendo panel de proyectos</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g07.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <!-- 03. creando un nuevo repositorio -->
+                <!-- <section class="sect_content">
+                    <h4>03. Creando un nuevo repositorio</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g08.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <!-- 04. nombre del repositorio -->
+                <!-- <section class="sect_content">
+                    <h4>04. Nombre del repositorio</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g09.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <!-- 05. url del repositorio -->
+                <!-- <section class="sect_content" id="url">
+                    <h4>05. Url del repositorio</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g10.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <!-- <div class="line_endsession">
+                    -------------------- End --------------------
+                </div> -->
+
+                <!-- 01 git remote add origin + url -->
+                <!-- <section class="sect_content" id="hub">
+                    <h4>01. Git remote add origin + url: Conectando git y github</h4>
+
+                    <p>
+                        <a href="#url" target="_blank">
+                            url repositorio github
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g11.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <!-- 02. git push origin master -->
+                <!-- <section class="sect_content">
+                    <h4>02. Git push origin "nombre rama": Subiendo los archivos</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g12.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <!-- 03. repositorio creado exitosamente -->
+                <!-- <section class="sect_content">
+                    <h4>03. Repositorio creado exitosamente</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g13.png" alt="modulo">
+                    </div>
+                </section> -->
+
+                <div class="line_endsession">End Conflits</div>
+            </section>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

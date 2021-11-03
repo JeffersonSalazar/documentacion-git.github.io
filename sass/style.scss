@@ -178,7 +178,6 @@ main {
 
                 h4 {
                     font-size: 2rem;
-                    // margin: 20px 0;
                 };
 
                 p {
@@ -229,6 +228,7 @@ main {
         };
     };
 
+    
     /* 
         CONTENIDO DE LA SECCION 00. INDEX
     */
@@ -237,8 +237,6 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // height: 250px;
-        // background-color: rebeccapurple;
 
         h2 {
             color: $colorFour;
