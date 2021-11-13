@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <title>04. Git branch</title>
+    <title>01. Git</title>
     <link rel="stylesheet" href="./sass/style.css" />
 </head>
 
@@ -31,9 +31,9 @@
         <!-- MENU -->
         <nav id="menu_nav">
             <ul>
-                <li><a href="git.html" target="_blank">01. Git</a></li>
                 <li><a href="git-hub.html" target="_blank">02. Github</a></li>
                 <li><a href="git-pages.html" target="_blank">03. Github pages</a></li>
+                <li><a href="git-branch.html" target="_blank">04. Git branch</a></li>
                 <li><a href="git-merge.html" target="_blank">05. Git merge</a></li>
                 <li><a href="git-logs.html" target="_blank">06. Git log</a></li>
                 <li><a href="git-commits.html" target="_blank">07. Git commit</a></li>
@@ -47,70 +47,86 @@
         <!-- CONTENIDO -->
         <div class="div_content">
 
-            <!-- branch -->
+            <!-- git -->
             <section class="main_content" id="modules">
 
                 <!-- descripcion de la sesion -->
                 <section class="box_description">
-                    <h2>04. Git Branch</h2>
+                    <h2>01. Git</h2>
 
                     <div class="line_titles"></div>
 
                     <p>
-                        Las <strong>ramas</strong> nos permiten dividir
-                        nuestro proyecto en secciones pequeñas las cuales
-                        pueden ser trabajadas por diferentes desarrolladores.
-                        En este apartado varemos como crear, renombrar,
-                        eliminar e interatuar entre ellas.
+                        Veamos como subir nuestro proyecto a un repositorio
+                        local con <strong>git</strong> haciendo uso de la consola
+                        <strong>git bash</strong>
                     </p>
                 </section>
 
-                <!-- 01 git branch -->
-                <section class="sect_content">
-                    <h4>01. Git branch: Conocer las ramas</h4>
+                <!-- 01 git bash y la carpeta contenedor -->
+                <section class="sect_content" id="git">
+                    <h4>01. Git bash y la carpeta contenedor</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/ramasmerge/r01.png" alt="modulo">
+                        <img src="./assets/images/gitproyects/g01.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 02. git branch "nombre rama" -->
+                <!-- 02. git init -->
                 <section class="sect_content">
-                    <h4>02. Git branch "nombre rama": Crear rama</h4>
+                    <h4>02. Git init: Iniciando con git</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/ramasmerge/r02.png" alt="modulo">
+                        <img src="./assets/images/gitproyects/g02.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 03. git checkout "nombre de rama" -->
+                <!-- 03. git status -->
                 <section class="sect_content">
-                    <h4>03. Git checkout "nombre rama": Cambiar entre ramas</h4>
+                    <h4>03. Git status: Estado de los archivos</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/ramasmerge/r03.png" alt="modulo">
+                        <img src="./assets/images/gitproyects/g03.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 04. git branch -d -->
+                <!-- 04. git diff -->
                 <section class="sect_content">
-                    <h4>04. Git branch -d "nombre rama": Eliminar una rama</h4>
+                    <h4>04. Git diff: Muestra los cambios por consola</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/ramasmerge/r04.png" alt="modulo">
+                        <img src="./assets/images/gitproyects/g15.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 05. git branch -m -->
+                <!-- 05. git add . -->
                 <section class="sect_content">
-                    <h4>05. Git branch -m "old name" "new name": Renombrar una rama</h4>
+                    <h4>05. Git add .: Añade los archivos al stagin area</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/ramasmerge/r05.png" alt="modulo">
+                        <img src="./assets/images/gitproyects/g04.png" alt="modulo">
                     </div>
                 </section>
 
-                <div class="line_endsession">End Git Branch</div>
+                <!-- 06. git reset . -->
+                <section class="sect_content">
+                    <h4>06. Git reset .: Remueve los archivos del stagin area</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g14.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 07. git commit -m "text" -->
+                <section class="sect_content">
+                    <h4>07. Git commit -m "text": Descripcion del commit</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/gitproyects/g05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End Git</div>
             </section>
         </div>
     </main>
